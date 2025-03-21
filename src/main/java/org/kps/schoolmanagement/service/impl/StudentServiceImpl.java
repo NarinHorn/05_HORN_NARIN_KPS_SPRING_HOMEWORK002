@@ -109,7 +109,7 @@ public class StudentServiceImpl implements StudentService {
             studentRepository.insertStudentCourse(id, courseId);
         }
 
-        // update student by insert new record by that id
+        // update student
         return studentRepository.updateStudent(id, studentRequest);
     }
 }
